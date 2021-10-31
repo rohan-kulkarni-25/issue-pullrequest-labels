@@ -2,8 +2,8 @@
 
 <h2>How to use ?</h2>
 <ul>
-<li>Create a file name `labels.json` and add those labels which you will like to have in your repository.</li>
-<li>Create a Action as similar to `labeladder.yml`</li>
+<li>Create a file name `labels.json` present in './github' and add those labels which you will like to have in your repository.</li>
+<li>Create a Action as similar to `labeladder.yml` which is present in './github/workflow'</li>
 <li>Each time you make changes to `labels.json` file this will get trigred and update the labels as per the file so labels added by you mannualy will get deleted</li>
 <li>One way is to delete both files after labels getting created then you can also create the labels manually and there will be no effect of this.</li>
 <li>I am sure you will not need more labels that this generally</li>
